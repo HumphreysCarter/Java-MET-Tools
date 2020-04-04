@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.0" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/aircraftreport1_0.xsd">
+  <request_index>58457235</request_index>
+  <data_source name="aircraftreports" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>8</time_taken_ms>
+  <data num_results="1">
+    <AircraftReport>
+      <receipt_time>2019-03-01T15:01:35Z</receipt_time>
+      <observation_time>2019-03-01T14:52:00Z</observation_time>
+      <aircraft_ref>E190</aircraft_ref>
+      <latitude>42.793</latitude>
+      <longitude>-75.3258</longitude>
+      <altitude_ft_msl>29000</altitude_ft_msl>
+      <turbulence_condition turbulence_type="CAT" turbulence_intensity="LGT" turbulence_freq="CONT" />
+      <report_type>PIREP</report_type>
+      <raw_text>BGM UA /OV RKA360020/TM 1452/FL290/TP E190/TB CONT LGT CAT</raw_text>
+    </AircraftReport>
+  </data>
+</response>
+
