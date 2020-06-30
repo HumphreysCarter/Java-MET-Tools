@@ -131,9 +131,9 @@ public class PlacefileWriter {
 
 	private static void uploadFile(String file) {
 		FTPClient client = new FTPClient();
-		String host = "weather.carterhumphreys.com";
-		String user = "placefiles@weather.carterhumphreys.com";
-		String pswd = "RfJXTQDJq,L$xT-";
+		String host = "example.com";
+		String user = "placefiles@example.com";
+		String pswd = "password";
 
 		// Read the file from resources folder.
 		ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
